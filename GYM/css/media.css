@@ -1,0 +1,250 @@
+@media (max-width: 1325px){
+
+    .pass__items{
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 1249px){
+
+    .clients__header{
+        margin-bottom: 50px;
+    }
+
+    .clients__wrapper{
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .clients__info{
+        flex-basis: 900px;
+        text-align: center;
+    }
+
+    .clients__info-social{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1239px){
+
+    .team__items{
+        justify-content: center;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 1219px){
+
+    .join__wrapper{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1207px){
+
+    .push__items{
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .push__item-info{
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 1189px){
+
+    .from__info{
+        flex-basis: content;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .from__content {
+        justify-content: center;
+        gap: 50px;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 1184px){
+
+    .our__wrapper{
+        justify-content: center;
+    }
+
+    .our__info{
+        flex-basis: 900px;
+        text-align: center;
+    }
+
+    .our__info-stats{
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width: 1030px){
+    /* BURGER MENU */
+
+    .menu-btn{
+       display: inline-block;
+       width: 50px;
+       height: 50px;
+       background-color: transparent;
+       order: 1;
+       border: none;
+       cursor: pointer;
+       position: relative;
+       z-index: 50;
+   }
+
+   .logo{
+       position: relative;
+       z-index: 50;
+   }
+
+   .nav__about{
+        position: relative;
+        z-index: 50;
+   }
+
+   .btn-line{
+       position: absolute;
+       left: 0;
+       width: 100%;
+       background: #F23849;
+       height: 2px;
+       transition: .3s ease-in;
+   }
+
+   .btn-line:nth-child(1){
+       top: 0;
+   }
+   .btn-line:nth-child(2){
+       top: 20px;
+   }
+   .btn-line:nth-child(3){
+       top: 20px;
+   }
+   .btn-line:nth-child(4){
+       top: 40px;
+   }
+   
+   .menu-open .btn-line:nth-child(1){
+       transform: scaleX(0);
+   }
+   .menu-open .btn-line:nth-child(2){
+       transform: rotate(45deg);
+   }
+   .menu-open .btn-line:nth-child(3){
+       transform: rotate(-45deg);
+   }
+   .menu-open .btn-line:nth-child(4){
+       transform: scaleX(0);
+   }
+
+   .nav__items{
+       position: absolute;
+       z-index: 1;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       top: 0;
+       background-color: #000;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 30px;
+       transform: translateY(-100%); /*убирается с страницы*/
+       transition: .3s ease-in;
+   }
+
+   .menu-open .nav__items{
+       transform: translateY(0%); /*при клике добавляется бургер меню*/
+   }
+}
+
+@media (max-width: 990px){
+
+    .from{
+        padding: 110px 0;
+    }
+
+    .our{
+        padding: 110px 0;
+    }
+
+    .why{
+        padding: 110px 0;
+    }
+
+    .team{
+        padding: 110px 0;
+    }
+
+    .newsletter{
+        padding: 110px 0;
+    }
+
+}
+
+@media (max-width: 949px){
+
+    .why__wrapper{
+        justify-content: center;
+    }
+
+    .why__content{
+        flex-basis: 850px;
+        text-align: center;
+    }
+
+    .why__item{
+        max-width: 570px;
+        margin: 0 auto;
+    }
+
+    .why__photo{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 939px){
+
+    .footer__wrapper{
+        justify-content: center;
+        gap: 50px;
+    }
+
+}
+
+@media (max-width: 822px){
+
+    .about__items{
+        justify-content: center;
+        gap: 50px;
+    }
+
+}
+
+@media (max-width: 790px){
+
+    .join__items{
+        justify-content: center;
+    }
+
+}
